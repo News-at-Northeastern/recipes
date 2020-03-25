@@ -63,24 +63,24 @@
 .recipe-box__food {
   position: absolute;
   z-index: 7;
-  left: calc(50% - 208px);
+  left: calc(50% - 175px);
   bottom: 0;
-  width: 417px;
-  height: 225px;
-  background: url('/interactive/2020/03/recipes/images/food.png') no-repeat bottom center;
+  width: 350px;
+  height: 189px;
+  background: url('/interactive/2020/03/recipes/images/countertop.png') no-repeat bottom center;
   background-size: cover;
 
   @media screen and (min-width: 600px) {
-    left: calc(50% - 345px);
-    width: 658px;
-    height: 355px;
+    left: calc(50% - 250px);
+    width: 500px;
+    height: 270px;
     bottom: -48px;
   }
 
   @media screen and (min-width: 768px) {
-    left: calc(50% - 460px);
-    width: 900px;
-    height: 486px;
-    bottom: -110px;
+    left: calc(50% - 400px);
+    width: 679px;
+    height: 367px;
+    bottom: -20px;
   }
 }
