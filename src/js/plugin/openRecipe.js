@@ -12,7 +12,8 @@ var $ = jQuery;
 
   $.fn.openRecipe.options = {
       recipe: ".recipe",
-      tab: ".recipe__tab"
+      tab: ".recipe__tab",
+        menuItem: ".recipe-menu li"
   };
 
   Neu.openRecipe = {
@@ -28,7 +29,8 @@ var $ = jQuery;
         var self = this;
 
         self.$recipe = self.$container.find(self.options.recipe);
-        self.$tab = self.$container.find(self.options.tab);
+        self.$tab = self.$container.find(self.options.tab),
+            self.$menuItem = this.$container.find(self.options.menuItem);
 
     },
     bindEvents: function() {
@@ -38,6 +40,19 @@ var $ = jQuery;
         $(this).on("click", function() {
           var tab = $(this);
           self.openRecipe(tab);
+        })
+      });
+
+      $(self.options.menuItem).each(function() {
+        $(this).on("click", function() {
+           var tab = $(this).attr("id");
+           var recipeid = $(this).attr("id");
+           $(self.options.recipe).each((function() {
+                        var option = $(this).children(self.options.tab);
+                        $(this).hasClass(recipeid) && (tab = option)
+                    }
+                    )),
+           self.openRecipe(tab);
         })
       });
 

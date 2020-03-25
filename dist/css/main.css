@@ -1239,6 +1239,12 @@ img.recipe__portrait {
 }
 
 /* line 89, src/sass/components/_recipe-box.scss */
+ul.recipe-menu li {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* line 96, src/sass/components/_recipe-box.scss */
 .recipes-headline {
   font-family: "TrimPoster-Slender", "trim-poster", sans-serif;
   text-transform: uppercase;
@@ -1250,7 +1256,7 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 89, src/sass/components/_recipe-box.scss */
+  /* line 96, src/sass/components/_recipe-box.scss */
   .recipes-headline {
     max-width: 800px;
     margin: 0 auto 40px;
@@ -1260,7 +1266,7 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 89, src/sass/components/_recipe-box.scss */
+  /* line 96, src/sass/components/_recipe-box.scss */
   .recipes-headline {
     font-size: 64px;
     line-height: 64px;

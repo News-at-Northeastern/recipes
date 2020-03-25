@@ -85,6 +85,13 @@
   }
 }
 
+ul.recipe-menu {
+   li {
+      cursor: pointer;
+      text-decoration: underline;
+   }
+}
+
 
 .recipes-headline {
    font-family: "TrimPoster-Slender", "trim-poster", sans-serif;
