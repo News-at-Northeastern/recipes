@@ -53,7 +53,7 @@ body {
 /* line 42, src/sass/components/_base.scss */
 .recipes-wrapper {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 250px;
   padding: 120px 0 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -62,14 +62,14 @@ body {
 @media screen and (min-width: 768px) {
   /* line 42, src/sass/components/_base.scss */
   .recipes-wrapper {
-    margin-bottom: 200px;
+    margin-bottom: 500px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   /* line 42, src/sass/components/_base.scss */
   .recipes-wrapper {
-    margin-bottom: 400px;
+    margin-bottom: 700px;
   }
 }
 
@@ -1271,4 +1271,11 @@ ul.recipe-menu li {
     font-size: 64px;
     line-height: 64px;
   }
+}
+
+/* line 118, src/sass/components/_recipe-box.scss */
+.wufoo-form {
+  background-color: white;
+  max-width: 900px;
+  margin: 0 auto;
 }

@@ -41,17 +41,17 @@ body {
 
 .recipes-wrapper {
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 250px;
 	padding: 120px 0 15px;
 	// min-height: 100vh;
 	box-sizing: border-box;
 
 	@media screen and (min-width: 768px) {
-		margin-bottom: 200px;
+		margin-bottom: 500px;
 	}
 
 	@media screen and (min-width: 1200px) {
-		margin-bottom: 400px;
+		margin-bottom: 700px;
 	}
 
 	@media print {
