@@ -1249,16 +1249,6 @@ img.recipe__portrait {
   text-align: center;
 }
 
-@media screen and (min-width: 600px) {
-  /* line 89, src/sass/components/_recipe-box.scss */
-  .recipes-headline {
-    left: calc(50% - 250px);
-    width: 500px;
-    height: 270px;
-    bottom: -48px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   /* line 89, src/sass/components/_recipe-box.scss */
   .recipes-headline {
