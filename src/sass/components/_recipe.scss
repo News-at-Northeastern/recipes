@@ -268,7 +268,7 @@
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   cursor: pointer;
-  background-image: url('/interactive/2019/12/recipes/images/pumpkin-tab.png');
+  background-image: url('/interactive/2020/03/recipes/images/pumpkin-tab.png');
   background-repeat: no-repeat;
   background-position: left 3px center;
   background-color: #fff;
@@ -317,12 +317,12 @@
   .champurrado & {
     right: 10px;
     left: auto;
-    background-image: url('/interactive/2019/12/recipes/images/pumpkin-tab.png');
+    background-image: url('/interactive/2020/03/recipes/images/pumpkin-tab.png');
   }
 
   .cookies & {
     right: 90px;
-    background-image: url('/interactive/2019/12/recipes/images/hot-chocolate.png');
+    background-image: url('/interactive/2020/03/recipes/images/hot-chocolate.png');
 
     @media screen and (min-width: 600px) {
       right: 112px;
@@ -335,7 +335,7 @@
 
   .yule-log & {
     right: 183px;
-    background-image: url('/interactive/2019/12/recipes/images/yule-log-tab.png');
+    background-image: url('/interactive/2020/03/recipes/images/yule-log-tab.png');
 
     @media screen and (min-width: 600px) {
       right: 228px;
@@ -536,7 +536,7 @@ img.recipe__portrait {
   overflow: hidden;
   // margin-left: 10px;
   padding: 5px 5px 5px 35px;
-  background: url('/interactive/2019/12/recipes/images/print.png') no-repeat left 5px center;
+  background: url('/interactive/2020/03/recipes/images/print.png') no-repeat left 5px center;
   background-size: 25px;
   border: none;
   cursor: pointer;

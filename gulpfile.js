@@ -40,7 +40,7 @@ var paths = {
 	},
   images: {
 		input: 'src/images/**/*',
-		output: 'dist/interactive/2019/12/recipes/images/'
+		output: 'dist/interactive/2020/03/recipes/images/'
 	},
 	reload: './dist/'
 };
