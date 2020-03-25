@@ -273,6 +273,9 @@
   background-position: left 3px center;
   background-color: #fff;
   background-size: 17px;
+  -webkit-box-shadow: 5px 0px 2px 0px rgba(0, 0, 0, 0.5);
+   -moz-box-shadow: 5px 0px 2px 0px rgba(0,0,0,0.5);
+   box-shadow: 5px 0px 2px 0px rgba(0,0,0,0.5);
 
   @media screen and (min-width: 600px) {
     top: -27px;
@@ -314,35 +317,87 @@
     border-bottom: 1px solid #fff;
   }
 
-  .champurrado & {
-    right: 10px;
+  .shrimp-scampi & {
+    right: 0px;
     left: auto;
     background-image: url('/interactive/2020/03/recipes/images/pumpkin-tab.png');
   }
 
-  .cookies & {
-    right: 90px;
+  .fried-rice & {
+    right: 40px;
     background-image: url('/interactive/2020/03/recipes/images/hot-chocolate.png');
 
     @media screen and (min-width: 600px) {
-      right: 112px;
+      right: 60px;
     }
 
     @media screen and (min-width: 768px) {
-      right: 15px;
+      right: 82px;
     }
   }
 
-  .yule-log & {
-    right: 183px;
+  .no-bake-bites & {
+    right: 70px;
     background-image: url('/interactive/2020/03/recipes/images/yule-log-tab.png');
 
     @media screen and (min-width: 600px) {
-      right: 228px;
+      right: 120px;
     }
 
     @media screen and (min-width: 768px) {
-      right: 287px;
+      right: 164px;
+    }
+  }
+
+  .noodle-salad & {
+    right: 100px;
+    background-image: url('/interactive/2020/03/recipes/images/hot-chocolate.png');
+
+    @media screen and (min-width: 600px) {
+      right: 180px;
+    }
+
+    @media screen and (min-width: 768px) {
+      right: 246px;
+    }
+  }
+
+  .hot-pocket & {
+    right: 130px;
+    background-image: url('/interactive/2020/03/recipes/images/hot-chocolate.png');
+
+    @media screen and (min-width: 600px) {
+      right: 240px;
+    }
+
+    @media screen and (min-width: 768px) {
+      right: 328px;
+    }
+  }
+
+  .chicken-thigh & {
+    right: 160px;
+    background-image: url('/interactive/2020/03/recipes/images/hot-chocolate.png');
+
+    @media screen and (min-width: 600px) {
+      right: 300px;
+    }
+
+    @media screen and (min-width: 768px) {
+      right: 410px;
+    }
+  }
+
+  .coconut-bites & {
+    right: 190px;
+    background-image: url('/interactive/2020/03/recipes/images/hot-chocolate.png');
+
+    @media screen and (min-width: 600px) {
+      right: 360px;
+    }
+
+    @media screen and (min-width: 768px) {
+      right: 492px;
     }
   }
 }
