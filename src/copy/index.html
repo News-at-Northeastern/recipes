@@ -10,15 +10,11 @@
 </head>
 <body>
 	<div class="recipes-wrapper">
-		<div class="recipes-intro"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget iaculis dui, id mattis nibh. Cras egestas quis velit a consequat. Fusce elementum magna in sapien commodo vestibulum. Donec dignissim eget felis non faucibus. Suspendisse fringilla sem velit, dignissim volutpat massa maximus a. </p>
+		<h1 class="recipes-headline">Our best holiday recipes, your table</h1>
+		<div class="recipes-intro"><p>Dive into this recipe box for tasty drinks and dishes from our team that will help make these frosty year-end days and nights jolly.</p>
 		<ul class="recipe-menu">
-			<li>Roberto's champurrado (thick Mexican chocolate and cornflour hot drink</li>
-			<li>Michael’s Italian Ricotta Christmas Cookies</li>
-			<li>Laura’s Curried Cashews</li>
-			<li>Kevin’s Holiday Leftovers Fried Rice</li>
-			<li>Tyler's Mom's French Meat Pie</li>
-			<li>Eunice’s Jollof Rice</li>
-			<li>Caitlin’s The Easiest Shrimp Scampi</li>
+			<li id="fried-rice">Kevin’s Holiday Leftovers Fried Rice</li>
+			<li id="shrimp-scampi">Caitlin’s Easy Shrimp Scampi</li>
 		</ul>
 		</div>
 
@@ -26,251 +22,86 @@
 			<div class="recipe-box__foreground"></div>
 			<ul class="recipe-list">
 				<!--recipe 7-->
-				<li class="recipe shrimp-scampi" itemscope itemtype="http://schema.org/Recipe">
-					<div class="recipe__tab">Shrimp</div>
+				<li class="recipe shrimp-scampi">
+					<div class="recipe__tab">Shrimp Scampi</div>
 					<div class="recipe__left">
-						<img class="recipe__portrait" src="/interactive/2020/03/recipes/images/zipporah.jpg" itemprop="image" />
+						<img class="recipe__portrait" src="https://www.northeastern.edu/externalaffairs/wp-content/uploads/odonnell.jpg" />
 						<section>
 							<h3 class="recipe-subhead">Ingredients:</h3>
 							<ul class="recipe__ingredients">
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
+								<li>3/4 lb linguine</li>
+								<li>2 tbsp olive oil</li>
+								<li>4 tbsp butter</li>
+								<li>4 cloves of minced garlic</li>
+								<li>1 lb large shrimp</li>
+								<li>1/2 tsp lemon zest</li>
+								<li>1/4 cup fresh lemon juice</li>
+								<li>1/8 tsp hot red pepper flakes</li>
+								<li>Parmesan cheese for serving</li>
 							</ul>
 						</section>
-						<img class="recipe__decor-left" src="interactive/2020/03/recipes/images/yule-log.png" />
+						<img class="recipe__decor-left" src="/interactive/2019/12/recipes/images/shrimp-scampi.png" />
 					</div>
 					<div class="recipe__right">
-						<h2 class="recipe__name" itemprop="name">Caitlin’s The Easiest Shrimp Scampi</h2>
-						<img class="recipe__decor-right" src="interactive/2020/03/recipes/images/yule-log.png" />
+						<h2 class="recipe__name">Caitlin’s Easy Shrimp Scampi</h2>
+						<p class="recipe__byline">By <a href="mailto:ca.odonnell@northeastern.edu">Caitlin O’Donnell</a>, executive assistant and project manager to the senior vice president for external affairs at Northeastern</h2>
 						<div class="recipe__details">
-							<div class="recipe__servings"><h3 class="recipe-subhead">Servings:</h3> <p itemprop="recipeYield">12</p></div>
-							<div class="recipe__time"><h3 class="recipe-subhead">Time:</h3> <meta itemprop="cookTime" content="PT30M"><p>30 minutes</p></div>
+							<div class="recipe__servings"><h3 class="recipe-subhead">Servings:</h3> <p>4</p></div>
+							<div class="recipe__time"><h3 class="recipe-subhead">Time:</h3> <p>15 minutes</p></div>
 						</div>
-						<div class="recipe__directions" itemprop="recipeInstructions">
+						<div class="recipe__directions">
 							<button title="Print" class="printBtn">Print</button>
 							<h3 class="recipe-subhead">Directions:</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget iaculis dui, id mattis nibh. Cras egestas quis velit a consequat. Fusce elementum magna in sapien commodo vestibulum. Donec dignissim eget felis non faucibus.</p>
-							<p>Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis consectetur pharetra lacus non maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tempus sapien at nisl vulputate, sit amet auctor odio euismod. </p>
-							<p>Mauris non nulla cursus ex pretium porta id quis tortor. Sed mattis ex pellentesque maximus porttitor. Etiam quis bibendum tortor.</p>
-						</div>
-					</div>
-				</li>
-				<!--recipe 6-->
-				<li class="recipe jollof-rice" itemscope itemtype="http://schema.org/Recipe">
-					<div class="recipe__tab">Jollof Rice</div>
-					<div class="recipe__left">
-						<img class="recipe__portrait" src="/interactive/2020/03/recipes/images/zipporah.jpg" itemprop="image" />
-						<section>
-							<h3 class="recipe-subhead">Ingredients:</h3>
-							<ul class="recipe__ingredients">
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
-							</ul>
-						</section>
-						<img class="recipe__decor-left" src="interactive/2020/03/recipes/images/yule-log.png" />
-					</div>
-					<div class="recipe__right">
-						<h2 class="recipe__name" itemprop="name">Eunice’s Jollof Rice</h2>
-						<img class="recipe__decor-right" src="interactive/2020/03/recipes/images/yule-log.png" />
-						<div class="recipe__details">
-							<div class="recipe__servings"><h3 class="recipe-subhead">Servings:</h3> <p itemprop="recipeYield">12</p></div>
-							<div class="recipe__time"><h3 class="recipe-subhead">Time:</h3> <meta itemprop="cookTime" content="PT30M"><p>30 minutes</p></div>
-						</div>
-						<div class="recipe__directions" itemprop="recipeInstructions">
-							<button title="Print" class="printBtn">Print</button>
-							<h3 class="recipe-subhead">Directions:</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget iaculis dui, id mattis nibh. Cras egestas quis velit a consequat. Fusce elementum magna in sapien commodo vestibulum. Donec dignissim eget felis non faucibus.</p>
-							<p>Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis consectetur pharetra lacus non maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tempus sapien at nisl vulputate, sit amet auctor odio euismod. </p>
-							<p>Mauris non nulla cursus ex pretium porta id quis tortor. Sed mattis ex pellentesque maximus porttitor. Etiam quis bibendum tortor.</p>
-						</div>
-					</div>
-				</li>
-				<!--recipe 5-->
-				<li class="recipe meat-pie" itemscope itemtype="http://schema.org/Recipe">
-					<div class="recipe__tab">French Meat Pie</div>
-					<div class="recipe__left">
-						<img class="recipe__portrait" src="/interactive/2020/03/recipes/images/michael.jpg" itemprop="image" />
-						<section>
-							<h3 class="recipe-subhead">Ingredients:</h3>
-							<ul class="recipe__ingredients">
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
-							</ul>
-						</section>
-						<img class="recipe__decor-left" src="interactive/2020/03/recipes/images/chocolate.png" />
-					</div>
-					<div class="recipe__right">
-						<h2 class="recipe__name" itemprop="name">Tyler's Mom's French Meat Pie</h2>
-						<img class="recipe__decor-right" src="interactive/2020/03/recipes/images/chocolate.png" />
-						<div class="recipe__details">
-							<div class="recipe__servings"><h3 class="recipe-subhead">Servings:</h3> <p itemprop="recipeYield">12</p></div>
-							<div class="recipe__time"><h3 class="recipe-subhead">Time:</h3> <meta itemprop="cookTime" content="PT30M"><p>30 minutes</p></div>
-						</div>
-						<div class="recipe__directions" itemprop="recipeInstructions">
-							<button title="Print" class="printBtn">Print</button>
-							<h3 class="recipe-subhead">Directions:</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget iaculis dui, id mattis nibh. Cras egestas quis velit a consequat. Fusce elementum magna in sapien commodo vestibulum. Donec dignissim eget felis non faucibus.</p>
-							<p>Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis consectetur pharetra lacus non maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tempus sapien at nisl vulputate, sit amet auctor odio euismod. </p>
-							<p>Mauris non nulla cursus ex pretium porta id quis tortor. Sed mattis ex pellentesque maximus porttitor. Etiam quis bibendum tortor.</p>
+							<p>1. Cook pasta according to directions.</p>
+							<p>2. While it cooks, add olive oil and butter to pan over medium-low heat. Add garlic and saute for one minute. Careful it does not burn!</p>
+							<p>3. Add shrimp, season with salt and pepper, and saute until the shrimp have turned pink, about 5 minutes. Remove from heat and add lemon zest, lemon juice, and red pepper flakes.</p>
+							<p>4. When the pasta is done, drain, and put into the pan with the sauce. Toss with Parmesan.</p>
+							<p>5. Notes: you can get fancy and add round slices of lemon to add extra flair. If you use fresh pasta, the sauce absorbs very easily—you can always add more olive oil, butter, or lemon juice if needed.</p>
 						</div>
 					</div>
 				</li>
 				<!--recipe 4-->
-				<li class="recipe active fried-rice" itemscope itemtype="http://schema.org/Recipe">
-					<div class="recipe__tab">Holiday Leftovers Fried Rice</div>
+				<li class="recipe fried-rice">
+					<div class="recipe__tab">Fried Rice</div>
 					<div class="recipe__left">
-						<img class="recipe__portrait" src="/interactive/2020/03/recipes/images/portrait.png" itemprop="image" />
+						<img class="recipe__portrait" src="https://www.northeastern.edu/externalaffairs/wp-content/uploads/Kevin_Deane_002.jpg" />
 						<section>
 							<h3 class="recipe-subhead">Ingredients:</h3>
 							<ul class="recipe__ingredients">
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
+								<li>2 cups cooked rice of your choice</li>
+								<li>3 tbsp canola oil</li>
+								<li>2-3 eggs</li>
+								<li>salt</li>
+								<li>1/2 cup scallions <span class="recipe-note">(separated into whites and greens) or finely chopped onions to taste</span></li>
+								<li>3 tbsp grated ginger</li>
+								<li>2 cloves garlic, finely chopped</li>
+								<li>1-1 1/2 lbs of leftover ham, turkey, or brisket <span class="recipe-note">(chopped into bite-sized pieces)</span></li>
+								<li>(If ham, add 1/2 cup of pineapple)</li>
+								<li>1/2 cup peas</li>
+								<li>1/4 cup cilantro <span class="recipe-note">(optional)</span></li>
+								<li>3 tbsp soy sauce</li>
+								<li>1/4 tsp freshly ground black pepper</li>
+								<li>Sriracha hot sauce to taste</li>
 							</ul>
 						</section>
-						<img class="recipe__decor-left" src="interactive/2020/03/recipes/images/pumpkin-pie.png" />
+						<img class="recipe__decor-left" src="/interactive/2019/12/recipes/images/fried-rice.png" />
 					</div>
 					<div class="recipe__right">
-						<h2 class="recipe__name" itemprop="name">Kevin’s Holiday Leftovers Fried Rice</h2>
-						<img class="recipe__decor-right" src="interactive/2020/03/recipes/images/pumpkin.png" />
+						<h2 class="recipe__name">Kevin’s Leftovers Fried Rice</h2>
+						<p class="recipe__byline">By <a href="mailto:k.deane@northeastern.edu">Kevin Deane</a>, digital design director</h2>
 						<div class="recipe__details">
-							<div class="recipe__servings"><h3 class="recipe-subhead">Servings:</h3> <p itemprop="recipeYield">12</p></div>
-							<div class="recipe__time"><h3 class="recipe-subhead">Time:</h3> <meta itemprop="cookTime" content="PT30M"><p>30 minutes</p></div>
+							<div class="recipe__servings"><h3 class="recipe-subhead">Servings:</h3> <p>4-6</p></div>
+							<div class="recipe__time"><h3 class="recipe-subhead">Time:</h3> <p>30 minutes</p></div>
 						</div>
-						<div class="recipe__directions" itemprop="recipeInstructions">
+						<div class="recipe__directions">
 							<button title="Print" class="printBtn">Print</button>
 							<h3 class="recipe-subhead">Directions:</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget iaculis dui, id mattis nibh. Cras egestas quis velit a consequat. Fusce elementum magna in sapien commodo vestibulum. Donec dignissim eget felis non faucibus.</p>
-							<p>Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis consectetur pharetra lacus non maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tempus sapien at nisl vulputate, sit amet auctor odio euismod. </p>
-							<p>Mauris non nulla cursus ex pretium porta id quis tortor. Sed mattis ex pellentesque maximus porttitor. Etiam quis bibendum tortor.</p>
-						</div>
-					</div>
-				</li>
-				<!--recipe 3-->
-				<li class="recipe active curried-cashews" itemscope itemtype="http://schema.org/Recipe">
-					<div class="recipe__tab">Curried Cashews</div>
-					<div class="recipe__left">
-						<img class="recipe__portrait" src="/interactive/2020/03/recipes/images/portrait.png" itemprop="image" />
-						<section>
-							<h3 class="recipe-subhead">Ingredients:</h3>
-							<ul class="recipe__ingredients">
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
-							</ul>
-						</section>
-						<img class="recipe__decor-left" src="interactive/2020/03/recipes/images/pumpkin-pie.png" />
-					</div>
-					<div class="recipe__right">
-						<h2 class="recipe__name" itemprop="name">Laura’s Curried Cashews</h2>
-						<img class="recipe__decor-right" src="interactive/2020/03/recipes/images/pumpkin.png" />
-						<div class="recipe__details">
-							<div class="recipe__servings"><h3 class="recipe-subhead">Servings:</h3> <p itemprop="recipeYield">12</p></div>
-							<div class="recipe__time"><h3 class="recipe-subhead">Time:</h3> <meta itemprop="cookTime" content="PT30M"><p>30 minutes</p></div>
-						</div>
-						<div class="recipe__directions" itemprop="recipeInstructions">
-							<button title="Print" class="printBtn">Print</button>
-							<h3 class="recipe-subhead">Directions:</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget iaculis dui, id mattis nibh. Cras egestas quis velit a consequat. Fusce elementum magna in sapien commodo vestibulum. Donec dignissim eget felis non faucibus.</p>
-							<p>Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis consectetur pharetra lacus non maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tempus sapien at nisl vulputate, sit amet auctor odio euismod. </p>
-							<p>Mauris non nulla cursus ex pretium porta id quis tortor. Sed mattis ex pellentesque maximus porttitor. Etiam quis bibendum tortor.</p>
-						</div>
-					</div>
-				</li>
-				<!--recipe 2-->
-				<li class="recipe active cookies" itemscope itemtype="http://schema.org/Recipe">
-					<div class="recipe__tab">Ricotta Christmas Cookies</div>
-					<div class="recipe__left">
-						<img class="recipe__portrait" src="/interactive/2020/03/recipes/images/portrait.png" itemprop="image" />
-						<section>
-							<h3 class="recipe-subhead">Ingredients:</h3>
-							<ul class="recipe__ingredients">
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
-								<li itemprop="recipeIngredient">1 pumpkin</li>
-								<li itemprop="recipeIngredient">1 cup sugar</li>
-								<li itemprop="recipeIngredient">1 cup flour</li>
-								<li itemprop="recipeIngredient">1 tsp cinnamon</li>
-							</ul>
-						</section>
-						<img class="recipe__decor-left" src="interactive/2020/03/recipes/images/pumpkin-pie.png" />
-					</div>
-					<div class="recipe__right">
-						<h2 class="recipe__name" itemprop="name">Michael’s Italian Ricotta Christmas Cookies</h2>
-						<img class="recipe__decor-right" src="interactive/2020/03/recipes/images/pumpkin.png" />
-						<div class="recipe__details">
-							<div class="recipe__servings"><h3 class="recipe-subhead">Servings:</h3> <p itemprop="recipeYield">12</p></div>
-							<div class="recipe__time"><h3 class="recipe-subhead">Time:</h3> <meta itemprop="cookTime" content="PT30M"><p>30 minutes</p></div>
-						</div>
-						<div class="recipe__directions" itemprop="recipeInstructions">
-							<button title="Print" class="printBtn">Print</button>
-							<h3 class="recipe-subhead">Directions:</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget iaculis dui, id mattis nibh. Cras egestas quis velit a consequat. Fusce elementum magna in sapien commodo vestibulum. Donec dignissim eget felis non faucibus.</p>
-							<p>Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis consectetur pharetra lacus non maximus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer tempus sapien at nisl vulputate, sit amet auctor odio euismod. </p>
-							<p>Mauris non nulla cursus ex pretium porta id quis tortor. Sed mattis ex pellentesque maximus porttitor. Etiam quis bibendum tortor.</p>
-						</div>
-					</div>
-				</li>
-				<!--recipe 1-->
-				<li class="recipe active champurrado" itemscope itemtype="http://schema.org/Recipe">
-					<div class="recipe__tab">Champurrado</div>
-					<div class="recipe__left">
-						<img class="recipe__portrait" src="/interactive/2020/03/recipes/images/portrait.png" itemprop="image" />
-						<section>
-							<h3 class="recipe-subhead">Ingredients:</h3>
-							<ul class="recipe__ingredients">
-								<li itemprop="recipeIngredient">3 cups of water</li>
-								<li itemprop="recipeIngredient">2 cinnamon sticks</li>
-								<li itemprop="recipeIngredient">¼ cup masa (mexican corn dough)</li>
-								<li itemprop="recipeIngredient">2 cups milk</li>
-								<li itemprop="recipeIngredient">Half disk mexican chocolate (like abuelita chocolate) chopped</li>
-								<li itemprop="recipeIngredient">1/2 cup brown sugar</li>
-							</ul>
-						</section>
-						<img class="recipe__decor-left" src="interactive/2020/03/recipes/images/pumpkin-pie.png" />
-					</div>
-					<div class="recipe__right">
-						<h2 class="recipe__name" itemprop="name">Roberto's champurrado</h2>
-						<img class="recipe__decor-right" src="interactive/2020/03/recipes/images/pumpkin.png" />
-						<div class="recipe__details">
-							<div class="recipe__servings"><h3 class="recipe-subhead">Servings:</h3> <p itemprop="recipeYield">6</p></div>
-							<div class="recipe__time"><h3 class="recipe-subhead">Time:</h3> <meta itemprop="cookTime" content="PT30M"><p>30 minutes</p></div>
-						</div>
-						<div class="recipe__directions" itemprop="recipeInstructions">
-							<button title="Print" class="printBtn">Print</button>
-							<h3 class="recipe-subhead">Directions:</h3>
-							<p>Champurrado is a thick Mexican chocolate and cornflour hot drink.</p>
-							<p>Boil the water and cinnamon for a good 5 minutes, then let sit and cool for 30 mins or so. Remove the cinnamon from water, and heat water at low/medium-low heat. As water heats, add the masa slowly and mix gently to make a thick, uniform liquid. Then add the milk, chocolate, and brown sugar--and mix. Keep in medium heat and whisk until chocolate and sugar dissolve. Serve hot!</p>
+							<p>1. Spread rice in one layer over cookie sheet. Best if allowed to cool overnight in the refrigerator.</p>
+							<p>2. In a wok or large skillet, heat 1 tsp of oil over medium-high heat. Add the eggs and 1/4 tsp salt and beat or stir until eggs are just set, about 2 minutes. Remove eggs and set aside.</p>
+							<p>3. Add another tsp of oil and the scallion whites or onion to the skillet. Cook and stir occasionally until onions are soft and fragrant—about 3  minutes—then stir in the ginger and garlic and cook until fragrant, about another minute.</p>
+							<p>4. Add the last tsp of oil, then add the ham, turkey, or brisket until warmed through, about 3 minutes. Add the rice and cook, stirring frequently, until well incorporated and beginning to crisp, 3 to 4 minutes. Add the peas and reserved eggs. Stir well, breaking up the eggs with a wooden spoon, about 1 minute. If you’re using ham, add pineapple, too.</p>
+							<p>5. Add the scallion greens, soy sauce, and salt and pepper. Continue stirring until the scallions are tender, about 1 minute more. Adjust seasoning to taste.</p>
+							<p>6. Sprinkle with the cilantro leaves and Sriracha if preferred. Serve and enjoy!</p>
 						</div>
 					</div>
 				</li>
@@ -281,7 +112,7 @@
 
 	</div>
 	<div class="print-container">
-		<img class='print-container__logo' src='/interactive/2020/03/recipes/images/news-logo.png' />
+		<img class='print-container__logo' src='/interactive/2019/12/recipes/images/news-logo.png' />
 	</div>
 
 	<!-- Scripts -->
