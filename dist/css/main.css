@@ -1114,7 +1114,7 @@ img.recipe__portrait {
 .recipe__decor-left {
   display: block;
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 @media print {
