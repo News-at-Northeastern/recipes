@@ -321,80 +321,64 @@
     border-bottom: 1px solid #fff;
   }
 
-  .coconut-bites & {
+  .cookies & {
     right: 0px;
     left: auto;
   }
 
-  .chicken-thigh & {
-    right: 40px;
-
+  .pesto-chicken & {
+    right: 30px;
     @media screen and (min-width: 600px) {
-      right: 60px;
-    }
-
-    @media screen and (min-width: 768px) {
-      right: 82px;
+      right: 50px;
     }
   }
 
-  .hot-pocket & {
-    right: 70px;
-
+  .spaghetti & {
+    right: 60px;
     @media screen and (min-width: 600px) {
-      right: 120px;
+      right: 100px;
     }
+  }
 
-    @media screen and (min-width: 768px) {
-      right: 164px;
+  .patatas-bravas & {
+    right: 90px;
+    @media screen and (min-width: 600px) {
+      right: 150px;
+    }
+  }
+
+  .feijoada & {
+    right: 120px;
+    @media screen and (min-width: 600px) {
+      right: 200px;
     }
   }
 
   .rotini & {
-    right: 100px;
-
+    right: 150px;
     @media screen and (min-width: 600px) {
-      right: 180px;
-    }
-
-    @media screen and (min-width: 768px) {
-      right: 246px;
+      right: 250px;
     }
   }
 
   .jollof-rice & {
-    right: 130px;
-
+    right: 180px;
     @media screen and (min-width: 600px) {
-      right: 240px;
-    }
-
-    @media screen and (min-width: 768px) {
-      right: 328px;
+      right: 300px;
     }
   }
 
   .fried-rice & {
-    right: 160px;
-
+    right: 210px;
     @media screen and (min-width: 600px) {
-      right: 300px;
-    }
-
-    @media screen and (min-width: 768px) {
-      right: 410px;
+      right: 350px;
     }
   }
 
   .shrimp-scampi & {
-    right: 190px;
-
+    right: 240px;
     @media screen and (min-width: 600px) {
-      right: 360px;
-    }
-
-    @media screen and (min-width: 768px) {
-      right: 492px;
+      right: 400px;
     }
   }
 }
