@@ -683,121 +683,121 @@ body {
 }
 
 /* line 324, src/sass/components/_recipe.scss */
-.shrimp-scampi .recipe__tab {
+.coconut-bites .recipe__tab {
   right: 0px;
   left: auto;
 }
 
 /* line 329, src/sass/components/_recipe.scss */
-.fried-rice .recipe__tab {
+.chicken-thigh .recipe__tab {
   right: 40px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 329, src/sass/components/_recipe.scss */
-  .fried-rice .recipe__tab {
+  .chicken-thigh .recipe__tab {
     right: 60px;
   }
 }
 
 @media screen and (min-width: 768px) {
   /* line 329, src/sass/components/_recipe.scss */
-  .fried-rice .recipe__tab {
+  .chicken-thigh .recipe__tab {
     right: 82px;
   }
 }
 
 /* line 341, src/sass/components/_recipe.scss */
-.no-bake-bites .recipe__tab {
+.hot-pocket .recipe__tab {
   right: 70px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 341, src/sass/components/_recipe.scss */
-  .no-bake-bites .recipe__tab {
+  .hot-pocket .recipe__tab {
     right: 120px;
   }
 }
 
 @media screen and (min-width: 768px) {
   /* line 341, src/sass/components/_recipe.scss */
-  .no-bake-bites .recipe__tab {
+  .hot-pocket .recipe__tab {
     right: 164px;
   }
 }
 
 /* line 353, src/sass/components/_recipe.scss */
-.noodle-salad .recipe__tab {
+.rotini .recipe__tab {
   right: 100px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 353, src/sass/components/_recipe.scss */
-  .noodle-salad .recipe__tab {
+  .rotini .recipe__tab {
     right: 180px;
   }
 }
 
 @media screen and (min-width: 768px) {
   /* line 353, src/sass/components/_recipe.scss */
-  .noodle-salad .recipe__tab {
+  .rotini .recipe__tab {
     right: 246px;
   }
 }
 
 /* line 365, src/sass/components/_recipe.scss */
-.hot-pocket .recipe__tab {
+.jollof-rice .recipe__tab {
   right: 130px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 365, src/sass/components/_recipe.scss */
-  .hot-pocket .recipe__tab {
+  .jollof-rice .recipe__tab {
     right: 240px;
   }
 }
 
 @media screen and (min-width: 768px) {
   /* line 365, src/sass/components/_recipe.scss */
-  .hot-pocket .recipe__tab {
+  .jollof-rice .recipe__tab {
     right: 328px;
   }
 }
 
 /* line 377, src/sass/components/_recipe.scss */
-.chicken-thigh .recipe__tab {
+.fried-rice .recipe__tab {
   right: 160px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 377, src/sass/components/_recipe.scss */
-  .chicken-thigh .recipe__tab {
+  .fried-rice .recipe__tab {
     right: 300px;
   }
 }
 
 @media screen and (min-width: 768px) {
   /* line 377, src/sass/components/_recipe.scss */
-  .chicken-thigh .recipe__tab {
+  .fried-rice .recipe__tab {
     right: 410px;
   }
 }
 
 /* line 389, src/sass/components/_recipe.scss */
-.coconut-bites .recipe__tab {
+.shrimp-scampi .recipe__tab {
   right: 190px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 389, src/sass/components/_recipe.scss */
-  .coconut-bites .recipe__tab {
+  .shrimp-scampi .recipe__tab {
     right: 360px;
   }
 }
 
 @media screen and (min-width: 768px) {
   /* line 389, src/sass/components/_recipe.scss */
-  .coconut-bites .recipe__tab {
+  .shrimp-scampi .recipe__tab {
     right: 492px;
   }
 }
@@ -1261,9 +1261,9 @@ img.recipe__portrait {
 .recipe-box__color-block {
   z-index: 5;
   position: absolute;
-  bottom: -220px;
+  bottom: -250px;
   width: 100%;
-  height: 320px;
+  height: 350px;
   background-color: #fff;
 }
 
