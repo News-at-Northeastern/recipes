@@ -713,73 +713,73 @@ body {
 }
 
 /* line 343, src/sass/components/_recipe.scss */
-.patatas-bravas .recipe__tab {
+.rotini .recipe__tab {
   right: 90px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 343, src/sass/components/_recipe.scss */
-  .patatas-bravas .recipe__tab {
+  .rotini .recipe__tab {
     right: 150px;
   }
 }
 
 /* line 350, src/sass/components/_recipe.scss */
-.feijoada .recipe__tab {
+.jollof-rice .recipe__tab {
   right: 120px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 350, src/sass/components/_recipe.scss */
-  .feijoada .recipe__tab {
+  .jollof-rice .recipe__tab {
     right: 200px;
   }
 }
 
 /* line 357, src/sass/components/_recipe.scss */
-.rotini .recipe__tab {
+.fried-rice .recipe__tab {
   right: 150px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 357, src/sass/components/_recipe.scss */
-  .rotini .recipe__tab {
+  .fried-rice .recipe__tab {
     right: 250px;
   }
 }
 
 /* line 364, src/sass/components/_recipe.scss */
-.jollof-rice .recipe__tab {
+.shrimp-scampi .recipe__tab {
   right: 180px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 364, src/sass/components/_recipe.scss */
-  .jollof-rice .recipe__tab {
+  .shrimp-scampi .recipe__tab {
     right: 300px;
   }
 }
 
 /* line 371, src/sass/components/_recipe.scss */
-.fried-rice .recipe__tab {
+.patatas-bravas .recipe__tab {
   right: 210px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 371, src/sass/components/_recipe.scss */
-  .fried-rice .recipe__tab {
+  .patatas-bravas .recipe__tab {
     right: 350px;
   }
 }
 
 /* line 378, src/sass/components/_recipe.scss */
-.shrimp-scampi .recipe__tab {
+.feijoada .recipe__tab {
   right: 240px;
 }
 
 @media screen and (min-width: 600px) {
   /* line 378, src/sass/components/_recipe.scss */
-  .shrimp-scampi .recipe__tab {
+  .feijoada .recipe__tab {
     right: 400px;
   }
 }
