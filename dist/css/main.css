@@ -728,7 +728,7 @@ body {
 
 /* line 353, src/sass/components/_recipe.scss */
 .tab1 .recipe__tab {
-  right: 30px;
+  right: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -740,7 +740,7 @@ body {
 
 /* line 360, src/sass/components/_recipe.scss */
 .tab2 .recipe__tab {
-  right: 60px;
+  right: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -752,7 +752,7 @@ body {
 
 /* line 367, src/sass/components/_recipe.scss */
 .tab3 .recipe__tab {
-  right: 90px;
+  right: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -764,7 +764,7 @@ body {
 
 /* line 374, src/sass/components/_recipe.scss */
 .tab4 .recipe__tab {
-  right: 120px;
+  right: 80px;
 }
 
 @media screen and (min-width: 768px) {
@@ -776,7 +776,7 @@ body {
 
 /* line 381, src/sass/components/_recipe.scss */
 .tab5 .recipe__tab {
-  right: 150px;
+  right: 100px;
 }
 
 @media screen and (min-width: 768px) {
@@ -788,7 +788,7 @@ body {
 
 /* line 388, src/sass/components/_recipe.scss */
 .tab6 .recipe__tab {
-  right: 180px;
+  right: 120px;
 }
 
 @media screen and (min-width: 768px) {
@@ -800,7 +800,7 @@ body {
 
 /* line 395, src/sass/components/_recipe.scss */
 .tab7 .recipe__tab {
-  right: 210px;
+  right: 140px;
 }
 
 @media screen and (min-width: 768px) {
@@ -812,7 +812,7 @@ body {
 
 /* line 402, src/sass/components/_recipe.scss */
 .tab8 .recipe__tab {
-  right: 240px;
+  right: 160px;
 }
 
 @media screen and (min-width: 768px) {
@@ -824,7 +824,7 @@ body {
 
 /* line 409, src/sass/components/_recipe.scss */
 .tab9 .recipe__tab {
-  right: 270px;
+  right: 180px;
 }
 
 @media screen and (min-width: 768px) {
