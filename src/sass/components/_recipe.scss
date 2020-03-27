@@ -256,14 +256,42 @@
   }
 }
 
+.row0 .recipe__tab {
+   top: -23px;
+   height: 14px;
+
+   @media screen and (min-width: 600px) {
+      top: -27px;
+      height: 18px;
+   }
+
+   @media screen and (min-width: 768px) {
+      top: -39px;
+      height: 24px;
+   }
+}
+
+.row1 .recipe__tab {
+   top: -43px;
+   height: 32px;
+
+   @media screen and (min-width: 600px) {
+      top: -47px;
+      height: 36px;
+   }
+
+   @media screen and (min-width: 768px) {
+      top: -59px;
+      height: 42px;
+   }
+}
+
 .recipe__tab {
   position: absolute;
   z-index: 9;
-  top: -23px;
   right: 5px;
   left: auto;
   box-sizing: content-box;
-  height: 14px;
   padding: 8px 15px 0 15px;
   border-bottom: 1px solid #ccc;
   font-family: Lato-Regular;
@@ -277,14 +305,12 @@
   background-position: left 3px center;
   background-color: #eee;
   background-size: 17px;
-  -webkit-box-shadow: 5px 0px 2px 0px rgba(0, 0, 0, 0.5);
-   -moz-box-shadow: 5px 0px 2px 0px rgba(0,0,0,0.5);
-   box-shadow: 5px 0px 2px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: -5px -2px 2px 0px rgba(0, 0, 0, 0.5);
+   -moz-box-shadow: -5px -2px 2px 0px rgba(0,0,0,0.5);
+   box-shadow: -5px -2px 2px 0px rgba(0,0,0,0.5);
 
   @media screen and (min-width: 600px) {
-    top: -27px;
     font-size: 12px;
-    height: 18px;
     background-size: 22px;
     padding: 8px 18px 0 18px;
 
@@ -296,9 +322,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    top: -39px;
     font-size: 14px;
-    height: 24px;
     background-size: 26px;
     padding: 14px 20px 0 20px;
     background-position: left 6px center;
@@ -321,85 +345,71 @@
     border-bottom: 1px solid #fff;
   }
 
-  .cookies & {
+  .tab0 & {
     right: 0px;
     left: auto;
   }
 
-  .cookies2 & {
+  .tab1 & {
     right: 30px;
     @media screen and (min-width: 768px) {
       right: 50px;
     }
   }
 
-  .pesto-chicken & {
+  .tab2 & {
     right: 60px;
     @media screen and (min-width: 768px) {
       right: 100px;
     }
   }
 
-  .spaghetti & {
+  .tab3 & {
     right: 90px;
     @media screen and (min-width: 768px) {
       right: 150px;
     }
   }
 
-  .rotini & {
+  .tab4 & {
     right: 120px;
     @media screen and (min-width: 768px) {
       right: 200px;
     }
   }
 
-  .jollof-rice & {
+  .tab5 & {
     right: 150px;
     @media screen and (min-width: 768px) {
       right: 250px;
     }
   }
 
-  .fried-rice & {
+  .tab6 & {
     right: 180px;
     @media screen and (min-width: 768px) {
       right: 300px;
     }
   }
 
-  .shrimp-scampi & {
+  .tab7 & {
     right: 210px;
     @media screen and (min-width: 768px) {
       right: 350px;
     }
   }
 
-  .bread & {
+  .tab8 & {
     right: 240px;
     @media screen and (min-width: 768px) {
       right: 400px;
     }
   }
 
-  .muffin-bars & {
+  .tab9 & {
     right: 270px;
     @media screen and (min-width: 768px) {
       right: 450px;
-    }
-  }
-
-  .patatas-bravas & {
-    right: 300px;
-    @media screen and (min-width: 768px) {
-      right: 500px;
-    }
-  }
-
-  .feijoada & {
-    right: 330px;
-    @media screen and (min-width: 768px) {
-      right: 550px;
     }
   }
 }
