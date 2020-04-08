@@ -273,7 +273,7 @@
 
 .row1 .recipe__tab {
    top: -43px;
-   height: 32px;
+   height: 14px;
 
    @media screen and (min-width: 600px) {
       top: -47px;
@@ -282,6 +282,21 @@
 
    @media screen and (min-width: 768px) {
       top: -59px;
+      height: 42px;
+   }
+}
+
+.row2 .recipe__tab {
+   top: -63px;
+   height: 14px;
+
+   @media screen and (min-width: 600px) {
+      top: -67px;
+      height: 36px;
+   }
+
+   @media screen and (min-width: 768px) {
+      top: -79px;
       height: 42px;
    }
 }

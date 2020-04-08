@@ -630,7 +630,7 @@ body {
 /* line 274, src/sass/components/_recipe.scss */
 .row1 .recipe__tab {
   top: -43px;
-  height: 32px;
+  height: 14px;
 }
 
 @media screen and (min-width: 600px) {
@@ -650,6 +650,28 @@ body {
 }
 
 /* line 289, src/sass/components/_recipe.scss */
+.row2 .recipe__tab {
+  top: -63px;
+  height: 14px;
+}
+
+@media screen and (min-width: 600px) {
+  /* line 289, src/sass/components/_recipe.scss */
+  .row2 .recipe__tab {
+    top: -67px;
+    height: 36px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* line 289, src/sass/components/_recipe.scss */
+  .row2 .recipe__tab {
+    top: -79px;
+    height: 42px;
+  }
+}
+
+/* line 304, src/sass/components/_recipe.scss */
 .recipe__tab {
   position: absolute;
   z-index: 9;
@@ -675,13 +697,13 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 289, src/sass/components/_recipe.scss */
+  /* line 304, src/sass/components/_recipe.scss */
   .recipe__tab {
     font-size: 12px;
     background-size: 22px;
     padding: 8px 18px 0 18px;
   }
-  /* line 317, src/sass/components/_recipe.scss */
+  /* line 332, src/sass/components/_recipe.scss */
   .open .recipe__tab,
   .opening .recipe__tab,
   .closing .recipe__tab {
@@ -690,14 +712,14 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 289, src/sass/components/_recipe.scss */
+  /* line 304, src/sass/components/_recipe.scss */
   .recipe__tab {
     font-size: 14px;
     background-size: 26px;
     padding: 14px 20px 0 20px;
     background-position: left 6px center;
   }
-  /* line 330, src/sass/components/_recipe.scss */
+  /* line 345, src/sass/components/_recipe.scss */
   .open .recipe__tab,
   .opening .recipe__tab,
   .closing .recipe__tab {
@@ -706,13 +728,13 @@ body {
 }
 
 @media print {
-  /* line 289, src/sass/components/_recipe.scss */
+  /* line 304, src/sass/components/_recipe.scss */
   .recipe__tab {
     display: none;
   }
 }
 
-/* line 341, src/sass/components/_recipe.scss */
+/* line 356, src/sass/components/_recipe.scss */
 .active .recipe__tab,
 .open .recipe__tab,
 .opening .recipe__tab,
@@ -720,121 +742,121 @@ body {
   border-bottom: 1px solid #fff;
 }
 
-/* line 348, src/sass/components/_recipe.scss */
+/* line 363, src/sass/components/_recipe.scss */
 .tab0 .recipe__tab {
   right: 0px;
   left: auto;
 }
 
-/* line 353, src/sass/components/_recipe.scss */
+/* line 368, src/sass/components/_recipe.scss */
 .tab1 .recipe__tab {
   right: 20px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 353, src/sass/components/_recipe.scss */
+  /* line 368, src/sass/components/_recipe.scss */
   .tab1 .recipe__tab {
     right: 50px;
   }
 }
 
-/* line 360, src/sass/components/_recipe.scss */
+/* line 375, src/sass/components/_recipe.scss */
 .tab2 .recipe__tab {
   right: 40px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 360, src/sass/components/_recipe.scss */
+  /* line 375, src/sass/components/_recipe.scss */
   .tab2 .recipe__tab {
     right: 100px;
   }
 }
 
-/* line 367, src/sass/components/_recipe.scss */
+/* line 382, src/sass/components/_recipe.scss */
 .tab3 .recipe__tab {
   right: 60px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 367, src/sass/components/_recipe.scss */
+  /* line 382, src/sass/components/_recipe.scss */
   .tab3 .recipe__tab {
     right: 150px;
   }
 }
 
-/* line 374, src/sass/components/_recipe.scss */
+/* line 389, src/sass/components/_recipe.scss */
 .tab4 .recipe__tab {
   right: 80px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 374, src/sass/components/_recipe.scss */
+  /* line 389, src/sass/components/_recipe.scss */
   .tab4 .recipe__tab {
     right: 200px;
   }
 }
 
-/* line 381, src/sass/components/_recipe.scss */
+/* line 396, src/sass/components/_recipe.scss */
 .tab5 .recipe__tab {
   right: 100px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 381, src/sass/components/_recipe.scss */
+  /* line 396, src/sass/components/_recipe.scss */
   .tab5 .recipe__tab {
     right: 250px;
   }
 }
 
-/* line 388, src/sass/components/_recipe.scss */
+/* line 403, src/sass/components/_recipe.scss */
 .tab6 .recipe__tab {
   right: 120px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 388, src/sass/components/_recipe.scss */
+  /* line 403, src/sass/components/_recipe.scss */
   .tab6 .recipe__tab {
     right: 300px;
   }
 }
 
-/* line 395, src/sass/components/_recipe.scss */
+/* line 410, src/sass/components/_recipe.scss */
 .tab7 .recipe__tab {
   right: 140px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 395, src/sass/components/_recipe.scss */
+  /* line 410, src/sass/components/_recipe.scss */
   .tab7 .recipe__tab {
     right: 350px;
   }
 }
 
-/* line 402, src/sass/components/_recipe.scss */
+/* line 417, src/sass/components/_recipe.scss */
 .tab8 .recipe__tab {
   right: 160px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 402, src/sass/components/_recipe.scss */
+  /* line 417, src/sass/components/_recipe.scss */
   .tab8 .recipe__tab {
     right: 400px;
   }
 }
 
-/* line 409, src/sass/components/_recipe.scss */
+/* line 424, src/sass/components/_recipe.scss */
 .tab9 .recipe__tab {
   right: 180px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 409, src/sass/components/_recipe.scss */
+  /* line 424, src/sass/components/_recipe.scss */
   .tab9 .recipe__tab {
     right: 450px;
   }
 }
 
-/* line 417, src/sass/components/_recipe.scss */
+/* line 432, src/sass/components/_recipe.scss */
 .recipe__left {
   position: relative;
   display: block;
@@ -845,13 +867,13 @@ body {
 }
 
 @media print {
-  /* line 417, src/sass/components/_recipe.scss */
+  /* line 432, src/sass/components/_recipe.scss */
   .recipe__left {
     padding-left: 20px;
   }
 }
 
-/* line 428, src/sass/components/_recipe.scss */
+/* line 443, src/sass/components/_recipe.scss */
 .recipe__right {
   position: relative;
   display: block;
@@ -864,14 +886,14 @@ body {
 }
 
 @media print {
-  /* line 428, src/sass/components/_recipe.scss */
+  /* line 443, src/sass/components/_recipe.scss */
   .recipe__right {
     padding-left: 60px;
     padding-top: 40px;
   }
 }
 
-/* line 443, src/sass/components/_recipe.scss */
+/* line 458, src/sass/components/_recipe.scss */
 img.recipe__portrait {
   display: block;
   float: left;
@@ -884,19 +906,19 @@ img.recipe__portrait {
 }
 
 @media print {
-  /* line 443, src/sass/components/_recipe.scss */
+  /* line 458, src/sass/components/_recipe.scss */
   img.recipe__portrait {
     opacity: 0;
   }
 }
 
-/* line 456, src/sass/components/_recipe.scss */
+/* line 471, src/sass/components/_recipe.scss */
 .recipe__ingredients {
   list-style-type: none;
   padding-left: 0;
 }
 
-/* line 460, src/sass/components/_recipe.scss */
+/* line 475, src/sass/components/_recipe.scss */
 .recipe__ingredients li {
   font-family: 'Kalam', cursive;
   font-size: 10px;
@@ -906,27 +928,27 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 460, src/sass/components/_recipe.scss */
+  /* line 475, src/sass/components/_recipe.scss */
   .recipe__ingredients li {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 460, src/sass/components/_recipe.scss */
+  /* line 475, src/sass/components/_recipe.scss */
   .recipe__ingredients li {
     font-size: 17px;
   }
 }
 
 @media print {
-  /* line 460, src/sass/components/_recipe.scss */
+  /* line 475, src/sass/components/_recipe.scss */
   .recipe__ingredients li {
     font-size: 32px;
   }
 }
 
-/* line 466, src/sass/components/_recipe.scss */
+/* line 481, src/sass/components/_recipe.scss */
 .recipe__name {
   text-align: center;
   font-family: 'Bilbo Swash Caps', cursive;
@@ -936,54 +958,54 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 466, src/sass/components/_recipe.scss */
+  /* line 481, src/sass/components/_recipe.scss */
   .recipe__name {
     font-size: 24px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 466, src/sass/components/_recipe.scss */
+  /* line 481, src/sass/components/_recipe.scss */
   .recipe__name {
     font-size: 34px;
   }
 }
 
 @media print {
-  /* line 466, src/sass/components/_recipe.scss */
+  /* line 481, src/sass/components/_recipe.scss */
   .recipe__name {
     font-size: 68px;
     margin-bottom: 40px;
   }
 }
 
-/* line 470, src/sass/components/_recipe.scss */
+/* line 485, src/sass/components/_recipe.scss */
 .recipe__details {
   margin-bottom: 10px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 470, src/sass/components/_recipe.scss */
+  /* line 485, src/sass/components/_recipe.scss */
   .recipe__details {
     margin-bottom: 20px;
   }
 }
 
 @media print {
-  /* line 470, src/sass/components/_recipe.scss */
+  /* line 485, src/sass/components/_recipe.scss */
   .recipe__details {
     margin-bottom: 40px;
   }
 }
 
-/* line 481, src/sass/components/_recipe.scss */
+/* line 496, src/sass/components/_recipe.scss */
 .recipe__details:before, .recipe__details:after {
   display: table;
   clear: both;
   content: "";
 }
 
-/* line 489, src/sass/components/_recipe.scss */
+/* line 504, src/sass/components/_recipe.scss */
 .recipe__directions {
   position: relative;
   font-family: 'Kalam', cursive;
@@ -993,78 +1015,78 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 489, src/sass/components/_recipe.scss */
+  /* line 504, src/sass/components/_recipe.scss */
   .recipe__directions {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 489, src/sass/components/_recipe.scss */
+  /* line 504, src/sass/components/_recipe.scss */
   .recipe__directions {
     font-size: 17px;
   }
 }
 
 @media print {
-  /* line 489, src/sass/components/_recipe.scss */
+  /* line 504, src/sass/components/_recipe.scss */
   .recipe__directions {
     font-size: 32px;
   }
 }
 
-/* line 497, src/sass/components/_recipe.scss */
+/* line 512, src/sass/components/_recipe.scss */
 .recipe__directions p {
   margin: 0 0 10px;
 }
 
 @media print {
-  /* line 497, src/sass/components/_recipe.scss */
+  /* line 512, src/sass/components/_recipe.scss */
   .recipe__directions p {
     line-height: 1.5em;
   }
 }
 
-/* line 506, src/sass/components/_recipe.scss */
+/* line 521, src/sass/components/_recipe.scss */
 .recipe__servings {
   margin-right: 10px;
 }
 
 @media screen and (min-width: 600px) {
-  /* line 506, src/sass/components/_recipe.scss */
+  /* line 521, src/sass/components/_recipe.scss */
   .recipe__servings {
     margin-right: 25px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 506, src/sass/components/_recipe.scss */
+  /* line 521, src/sass/components/_recipe.scss */
   .recipe__servings {
     margin-right: 40px;
   }
 }
 
 @media print {
-  /* line 506, src/sass/components/_recipe.scss */
+  /* line 521, src/sass/components/_recipe.scss */
   .recipe__servings {
     margin-right: 80px;
   }
 }
 
-/* line 521, src/sass/components/_recipe.scss */
+/* line 536, src/sass/components/_recipe.scss */
 .recipe__servings p {
   text-align: center;
   width: 20px;
 }
 
 @media print {
-  /* line 521, src/sass/components/_recipe.scss */
+  /* line 536, src/sass/components/_recipe.scss */
   .recipe__servings p {
     width: 80px;
   }
 }
 
-/* line 531, src/sass/components/_recipe.scss */
+/* line 546, src/sass/components/_recipe.scss */
 .recipe__servings,
 .recipe__time {
   font-family: 'Kalam', cursive;
@@ -1077,7 +1099,7 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 531, src/sass/components/_recipe.scss */
+  /* line 546, src/sass/components/_recipe.scss */
   .recipe__servings,
   .recipe__time {
     font-size: 12px;
@@ -1085,7 +1107,7 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 531, src/sass/components/_recipe.scss */
+  /* line 546, src/sass/components/_recipe.scss */
   .recipe__servings,
   .recipe__time {
     font-size: 17px;
@@ -1093,14 +1115,14 @@ img.recipe__portrait {
 }
 
 @media print {
-  /* line 531, src/sass/components/_recipe.scss */
+  /* line 546, src/sass/components/_recipe.scss */
   .recipe__servings,
   .recipe__time {
     font-size: 32px;
   }
 }
 
-/* line 538, src/sass/components/_recipe.scss */
+/* line 553, src/sass/components/_recipe.scss */
 .recipe__servings p,
 .recipe__time p {
   display: inline-block;
@@ -1111,7 +1133,7 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 538, src/sass/components/_recipe.scss */
+  /* line 553, src/sass/components/_recipe.scss */
   .recipe__servings p,
   .recipe__time p {
     padding-top: 6px;
@@ -1119,7 +1141,7 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 538, src/sass/components/_recipe.scss */
+  /* line 553, src/sass/components/_recipe.scss */
   .recipe__servings p,
   .recipe__time p {
     padding-top: 8px;
@@ -1127,14 +1149,14 @@ img.recipe__portrait {
 }
 
 @media print {
-  /* line 538, src/sass/components/_recipe.scss */
+  /* line 553, src/sass/components/_recipe.scss */
   .recipe__servings p,
   .recipe__time p {
     padding-top: 16px;
   }
 }
 
-/* line 558, src/sass/components/_recipe.scss */
+/* line 573, src/sass/components/_recipe.scss */
 .recipe__servings .recipe-subhead,
 .recipe__time .recipe-subhead {
   float: left;
@@ -1142,7 +1164,7 @@ img.recipe__portrait {
   padding-right: 5px;
 }
 
-/* line 565, src/sass/components/_recipe.scss */
+/* line 580, src/sass/components/_recipe.scss */
 .recipe__decor-left {
   display: block;
   width: 80%;
@@ -1150,7 +1172,7 @@ img.recipe__portrait {
 }
 
 @media print {
-  /* line 565, src/sass/components/_recipe.scss */
+  /* line 580, src/sass/components/_recipe.scss */
   .recipe__decor-left {
     position: absolute;
     height: 280px;
@@ -1160,13 +1182,13 @@ img.recipe__portrait {
   }
 }
 
-/* line 579, src/sass/components/_recipe.scss */
+/* line 594, src/sass/components/_recipe.scss */
 .recipe__decor-right {
   display: none;
 }
 
 @media screen and (min-width: 600px) {
-  /* line 579, src/sass/components/_recipe.scss */
+  /* line 594, src/sass/components/_recipe.scss */
   .recipe__decor-right {
     position: absolute;
     display: block;
@@ -1178,13 +1200,13 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 579, src/sass/components/_recipe.scss */
+  /* line 594, src/sass/components/_recipe.scss */
   .recipe__decor-right {
     width: 50px;
   }
 }
 
-/* line 596, src/sass/components/_recipe.scss */
+/* line 611, src/sass/components/_recipe.scss */
 .printBtn {
   position: absolute;
   top: -8px;
@@ -1205,28 +1227,28 @@ img.recipe__portrait {
 }
 
 @media screen and (min-width: 600px) {
-  /* line 596, src/sass/components/_recipe.scss */
+  /* line 611, src/sass/components/_recipe.scss */
   .printBtn {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 596, src/sass/components/_recipe.scss */
+  /* line 611, src/sass/components/_recipe.scss */
   .printBtn {
     font-size: 17px;
   }
 }
 
 @media print {
-  /* line 596, src/sass/components/_recipe.scss */
+  /* line 611, src/sass/components/_recipe.scss */
   .printBtn {
     font-size: 32px;
   }
 }
 
 @media print {
-  /* line 596, src/sass/components/_recipe.scss */
+  /* line 611, src/sass/components/_recipe.scss */
   .printBtn {
     display: none;
   }
@@ -1237,7 +1259,7 @@ img.recipe__portrait {
   position: relative;
   width: 350px;
   height: 342px;
-  margin: 100px auto 70px;
+  margin: 150px auto 70px;
   background: url("/interactive/2020/03/recipes/images/box-full-mobile.png") no-repeat bottom center;
   background-size: contain;
 }
@@ -1347,13 +1369,43 @@ img.recipe__portrait {
   }
 }
 
-/* line 89, src/sass/components/_recipe-box.scss */
-ul.recipe-menu li {
-  cursor: pointer;
-  text-decoration: underline;
+/* line 88, src/sass/components/_recipe-box.scss */
+ul.recipe-menu {
+  display: grid;
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1100px;
+  grid-template-columns: 32% 32% 32%;
+  grid-gap: 2%;
 }
 
-/* line 96, src/sass/components/_recipe-box.scss */
+@media screen and (min-width: 768px) {
+  /* line 88, src/sass/components/_recipe-box.scss */
+  ul.recipe-menu {
+    grid-template-columns: 17% 17% 18% 17% 17%;
+    grid-gap: 3.5%;
+    padding: 0 40px;
+  }
+}
+
+/* line 102, src/sass/components/_recipe-box.scss */
+ul.recipe-menu li {
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Kalam', sans-serif;
+}
+
+/* line 111, src/sass/components/_recipe-box.scss */
+ul.recipe-menu li:hover {
+  color: #eee;
+  background-color: #3D4457;
+}
+
+/* line 119, src/sass/components/_recipe-box.scss */
 .recipes-headline {
   font-family: "TrimPoster-Slender", "trim-poster", sans-serif;
   text-transform: uppercase;
@@ -1365,7 +1417,7 @@ ul.recipe-menu li {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 96, src/sass/components/_recipe-box.scss */
+  /* line 119, src/sass/components/_recipe-box.scss */
   .recipes-headline {
     max-width: 800px;
     margin: 0 auto 40px;
@@ -1375,14 +1427,14 @@ ul.recipe-menu li {
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 96, src/sass/components/_recipe-box.scss */
+  /* line 119, src/sass/components/_recipe-box.scss */
   .recipes-headline {
     font-size: 64px;
     line-height: 64px;
   }
 }
 
-/* line 118, src/sass/components/_recipe-box.scss */
+/* line 141, src/sass/components/_recipe-box.scss */
 .wufoo-form {
   background-color: white;
   max-width: 900px;

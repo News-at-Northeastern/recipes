@@ -2,7 +2,7 @@
   position: relative;
   width: 350px;
   height: 342px;
-  margin: 100px auto 70px;
+  margin: 150px auto 70px;
   background: url('/interactive/2020/03/recipes/images/box-full-mobile.png') no-repeat bottom center;
   background-size: contain;
 
@@ -86,9 +86,32 @@
 }
 
 ul.recipe-menu {
+   display: grid;
+   margin: 0 auto;
+   padding:0 10px;
+   max-width:1100px;
+   grid-template-columns: 32% 32% 32%;
+   grid-gap: 2%;
+
+   @media screen and (min-width: 768px) {
+      grid-template-columns: 17% 17% 18% 17% 17%;
+      grid-gap: 3.5%;
+      padding:0 40px;
+   }
+
    li {
       cursor: pointer;
-      text-decoration: underline;
+      text-decoration: none;
+      list-style-type: none;
+      background-color: #eee;
+      border-radius: 5px;
+      padding:10px;
+      font-family: 'Kalam', sans-serif;
+
+      &:hover {
+         color: #eee;
+         background-color: $accent1;
+      }
    }
 }
 
