@@ -92,6 +92,11 @@ var $ = jQuery;
         return;
       }
       target.addClass("opening");
+
+      $('html, body').animate({
+        scrollTop: ($(target).offset().top - 700)
+     },500);
+
       setTimeout(function() {
         target.addClass("open");
         target.attr("id", "open");
