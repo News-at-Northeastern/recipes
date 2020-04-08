@@ -107,6 +107,9 @@ ul.recipe-menu {
       border-radius: 5px;
       padding:10px;
       font-family: 'Kalam', sans-serif;
+      -webkit-box-shadow: 3px 3px 3px 0px rgba(150,150,150,1);
+      -moz-box-shadow: 3px 3px 3px 0px rgba(150,150,150,1);
+      box-shadow: 3px 3px 3px 0px rgba(150,150,150,1);
 
       &:hover {
          color: #eee;
