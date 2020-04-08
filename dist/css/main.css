@@ -93,7 +93,7 @@ body {
   /* line 62, src/sass/components/_base.scss */
   .recipes-intro {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 2em;
     font-size: 18px;
   }
 }
@@ -1401,19 +1401,29 @@ ul.recipe-menu li {
   list-style-type: none;
   background-color: #eee;
   border-radius: 5px;
-  padding: 10px;
+  padding: 0.5rem;
   font-family: 'Kalam', sans-serif;
+  font-size: 0.8rem;
+  line-height: 1rem;
   -webkit-box-shadow: 3px 3px 3px 0px #969696;
   box-shadow: 3px 3px 3px 0px #969696;
 }
 
-/* line 114, src/sass/components/_recipe-box.scss */
+/* line 116, src/sass/components/_recipe-box.scss */
 ul.recipe-menu li:hover {
   color: #eee;
   background-color: #3D4457;
 }
 
-/* line 122, src/sass/components/_recipe-box.scss */
+@media screen and (min-width: 900px) {
+  /* line 102, src/sass/components/_recipe-box.scss */
+  ul.recipe-menu li {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}
+
+/* line 129, src/sass/components/_recipe-box.scss */
 .recipes-headline {
   font-family: "TrimPoster-Slender", "trim-poster", sans-serif;
   text-transform: uppercase;
@@ -1425,7 +1435,7 @@ ul.recipe-menu li:hover {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 122, src/sass/components/_recipe-box.scss */
+  /* line 129, src/sass/components/_recipe-box.scss */
   .recipes-headline {
     max-width: 800px;
     margin: 0 auto 40px;
@@ -1435,14 +1445,14 @@ ul.recipe-menu li:hover {
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 122, src/sass/components/_recipe-box.scss */
+  /* line 129, src/sass/components/_recipe-box.scss */
   .recipes-headline {
     font-size: 64px;
     line-height: 64px;
   }
 }
 
-/* line 144, src/sass/components/_recipe-box.scss */
+/* line 151, src/sass/components/_recipe-box.scss */
 .wufoo-form {
   background-color: white;
   max-width: 900px;
