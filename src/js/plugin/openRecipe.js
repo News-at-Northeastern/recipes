@@ -94,7 +94,7 @@ var $ = jQuery;
       target.addClass("opening");
 
       $('html, body').animate({
-        scrollTop: ($(target).offset().top - 300)
+        scrollTop: ($(target).offset().top - 500)
      },500);
 
       setTimeout(function() {
